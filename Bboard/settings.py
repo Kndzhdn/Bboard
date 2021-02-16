@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '!^4egdkvl(!4xt8v@=lckebi@4q2e@p(cx+%ff1tztc84_@fv7'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -175,10 +175,6 @@ CORS_URLS_REGEX = r'^/api/.*$'
 
 
 
-#superuser(nadez, sbeghosttown)
-
-#капча: pip install django-simple-captcha
-#Django REST Framework: pip install djangorestframework, pip install django-cors-headers
 
 
 
